@@ -7,7 +7,7 @@ import { checkStatus } from "../redux/slices/menuSlice";
 import { YT_Search_API } from "../utils/constants";
 import { useEffect, useState } from "react";
 import SearchResults from "./SearchResults";
-import { cacheData,removeOldCache } from "../redux/slices/SearchSlice";
+import { cacheData,removeOldCache } from "../redux/slices/searchSlice";
 const Header = () => {
   const dispatch = useDispatch();
   const [query, setQuery] = useState("");
